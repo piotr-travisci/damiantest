@@ -1,0 +1,12 @@
+#os: osx
+# dist: focal
+# dist: bionic
+dist: xenial
+group: dev
+
+install: skip
+
+script:
+- uname -a
+- uname
+- sudo apt update -y
